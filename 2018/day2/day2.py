@@ -22,5 +22,6 @@ for i, s in enumerate(inp):
                 common.append(c)
             else:
                 diff.append((j,c))
+        break
 print(''.join(common))
 print(diff)
